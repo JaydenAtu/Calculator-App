@@ -464,7 +464,6 @@ public class Calculator implements ActionListener{
         }
         if(e.getSource() == secButton){
             secondFunction = !secondFunction;
-
             if(secondFunction){
                 sinButton.setText("sin ̄ ¹");
                 cosButton.setText("cos ̄ ¹");
